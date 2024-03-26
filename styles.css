@@ -45,6 +45,10 @@ button {
     font-weight: 600;
 }
 
+button:hover {
+    background-color: black;
+}
+
 .number {
     border: solid 3px rgb(0, 255, 0);
     border-radius: 5px;
@@ -63,4 +67,10 @@ button {
 .equal {
     border: solid 3px rgb(255, 0, 0);
     border-radius: 5px;
+}
+
+.display {
+    max-width: 220px;
+    text-align: right;
+    
 }
